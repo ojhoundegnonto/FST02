@@ -17,3 +17,13 @@ git commit -m "comment on the description"
 git log
 --- in one line as short description 
 git log --oneline 
+
+- searching the available branch
+git branch -a 
+
+- create a new branch
+git brach [nameOftheBranch]
+
+- Changing branch/ switch to another branch
+git checkout [nameOfBreanch]
+git switch [nameOfBreanch]
