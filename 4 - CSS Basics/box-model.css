@@ -1,0 +1,67 @@
+/* Padding --> inner spacing -- space within the box: between the border and the content */
+/* Padding (inner spacing) - space within the box */
+/* Adding padding to each side */
+.box1 {
+    padding-top: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 10px;
+}
+
+/* Shorthand  - Adding padding to each side*/
+/* To give/add padding as one line, the four values follow a clockwise: top->right->bottom->left */
+/* 3 values: top-> left and right -> bottom */
+/* 2 values: top and bottom -> left and right */
+/* 1 value: all side */
+/* ------------------------------------------ */
+/* Shorhand - Adding padding to each side */
+/* Clockwise */
+/* 4 values = top, right, bottom, left */
+/* 3 values = top, left and right, bottom */
+/* 2 values = top and bottom, left and right*/
+/* 1 value = all sides */
+/* ------------------------------------------ */
+.box2 {
+    padding: 20px;
+}
+
+/* Adding marging */
+/* it is refer space outside the box */
+/* Values attribution works same as the "paddiong" */
+.box3 {
+    margin-left: 10px;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-bottom: 10px;
+}
+
+/* Shorhand of adding marging */
+/* 4 values = top, right, bottom, left */
+/* 3 values = top, left and right, bottom */
+/* 2 values = top and bottom, left and right*/
+/* 1 value = all sides */
+.box4 {
+    margin: 10px;
+}
+
+.mix-borders {
+    height: 100px;
+    width: 200px;
+    background-color: aquamarine;
+    border-style: solid dashed dotted double;
+    border-width: 4px;
+    border-color: rebeccapurple blueviolet tomato black;
+
+    /* in one line */
+    border: 10px tomato dashed;
+}
+
+/* Circle Container */
+.circle-container{
+background-color: aqua;
+height: 200px;
+width: 200px;
+border-radius: 50%;
+text-align: center;
+color:tomato;
+}

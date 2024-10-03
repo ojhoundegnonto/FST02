@@ -1,0 +1,51 @@
+/* element selector */
+span {
+    font-size: 18px;
+    color: white;
+    background-color: green;
+}
+
+/* class selector */
+.intro-paragraphs {
+    color: red;
+    background-color: pink;
+}
+
+/* id selector */
+#main-heading {
+    font-weight: bold;
+}
+
+/* universal selector */
+/* act on all element of the htlm document/web page */
+* {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Grouping selector */
+h1,
+h2,
+.about-content {
+    color: orange;
+    text-align: center;
+}
+
+/* descendant selector */
+.article-container p {
+    font-style: italic;
+    color: green;
+}
+
+/* Pseudo-class */
+a:visited {
+    color: pink;
+}
+
+a:hover {
+    color: rgb(130, 56, 80);
+    font-size: 18px;
+}
+
+a:active {
+    color: yellow;
+}
