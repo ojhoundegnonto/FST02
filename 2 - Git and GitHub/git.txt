@@ -27,3 +27,9 @@ git brach [nameOftheBranch]
 - Changing branch/ switch to another branch
 git checkout [nameOfBreanch]
 git switch [nameOfBreanch]
+
+- Merging branch
+git merge [branch name]
+
+- Dellet a branch
+git branch -d [branch name]
