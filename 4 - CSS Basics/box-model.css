@@ -57,11 +57,23 @@
 }
 
 /* Circle Container */
-.circle-container{
+/* .circle-container{
 background-color: aqua;
 height: 200px;
 width: 200px;
 border-radius: 50%;
 text-align: center;
 color:tomato;
+} */
+
+/* Circle Container */
+.circle-container {
+    background-color: aqua;
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: tomato;
 }
