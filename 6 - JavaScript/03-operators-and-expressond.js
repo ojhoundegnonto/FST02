@@ -22,8 +22,8 @@ console.log("HelloWorld");
 console.log("Hello" + " " + "World!");
 
 // Template Literals
-const name = "John";
-const greeting = `Hello, ${name}!`; // ${variableName}
+const Name = "John";
+const greeting = `Hello, ${Name}!`; // ${variableName}
 console.log(greeting);
 
 // 3. Comparison Operators
@@ -36,10 +36,6 @@ console.log("Greater Than (>):", 5 > 3);
 console.log("Less Than (<):", 5 < 3);
 console.log("Greater than or Equal to (>=):", 5 >= 3);
 console.log("Less than or Equal to (<=):", 5 <= 3);
-// Strict Equal to (===)
-console.log("Strict Equal to (===):", 5 === 5);
-console.log("Strict Equal to (===):", 5 === "5");
-
 // Strict Equal to (===)
 console.log("Strict Equal to (===):", 5 === 5);
 console.log("Strict Equal to (===):", 5 === "5");
