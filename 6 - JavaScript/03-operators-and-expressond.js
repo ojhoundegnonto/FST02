@@ -84,5 +84,5 @@ console.log(num3); // 100000
 num3 %= num4; // 100000 % 5
 console.log(num3); // 0
 
-console.log(1+”1”);
-console.log(1-“1”)=0;
+console.log(1+"1");
+console.log(1-"1")=0;

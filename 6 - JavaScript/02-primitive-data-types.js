@@ -12,11 +12,6 @@ console.log("the data type of age is:", typeof age);
 let isAdmin = true;
 console.log("Is admin:", isAdmin);
 console.log("the data type of isAdmin is:", typeof isAdmin);
-
-// Boolean: either true or false
-let isAdmin = true;
-console.log("Is admin:", isAdmin);
-console.log("the data type of isAdmin is:", typeof isAdmin);
 // Null: Intentional absence of a value
 let car = null;
 console.log("Car:", car);
