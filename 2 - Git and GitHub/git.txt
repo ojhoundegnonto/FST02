@@ -33,3 +33,15 @@ git merge [branch name]
 
 - Dellet a branch
 git branch -d [branch name]
+
+Branching
+
+- Check all of the branch 
+git branch -a
+
+- Create a new branch 
+git branch [branch_name]
+
+- Switch to a different branch 
+git checkout [branch_name] 
+git switch [branch_name]
